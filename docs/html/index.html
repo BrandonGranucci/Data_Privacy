@@ -7,6 +7,17 @@
     <meta name = "keywords" content = "data privacy" >
     <meta name = "description" content = "How much is the government and companies like Google spying on you? Learn all about it here and know how to prevent it!">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        body {
+            overflow-y: scroll;
+        }
+    </style>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 <div class="p-3 mb-2 bg-dark text-white">
@@ -16,22 +27,21 @@
         <a class="navbar-brand" href="index.html">&emsp;Data Privacy & Online Marketing</a>
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="#">About&ensp;</a>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="about.html">About&ensp;</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="#">What You Could Do&ensp;</a>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="what_you_can_do.html">What You Can Do&ensp;</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Resources
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="topic1.html">Domain Names & ICANN</a>
-                        <a class="dropdown-item" href="topic2.html">IP Addresses, Packets, & Routing</a>
-                        <a class="dropdown-item" href="topic3.html">DNS</a>
-                        <a class="dropdown-item" href="topic4.html">HTTP & HTTPS Protocols</a>
-                        <a class="dropdown-item" href="topic5.html">W3C and HTML & CSS</a>
+                        <a class="dropdown-item" href="browser_fingerprinting.html">Browser Fingerprinting</a>
+                        <a class="dropdown-item" href="surveillance_capitalism.html">Surveillance Capitalism</a>
+                        <a class="dropdown-item" href="snowden.html">Snowden</a>
+                        <a class="dropdown-item" href="facebook_dilemma.html">Facebook Dilemma</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -40,10 +50,39 @@
             </ul>
         </div>
     </nav>
-
+    <br><br>
     <!-- **************************************************************** END OF NAV BAR **************************************************************** -->
-
-
+    <div class = "center">
+    <h3>Did You Know?</h3>
+    <h4>
+        These groups collect any information on you that they can. This is typically
+        done without your knowledge or consent and that data is used
+        to know exactly who you are and to predict your next move.
+    </h4>
+    </div>
+    <!--- ***************** CAROUSEL ***************** -->
+    <br>
+    <div id="groups_images" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/facebook.jpeg" class="d-block w-25 mx-auto" alt="Facebook image">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/google.jpeg" class="d-block w-25 mx-auto" alt="Google image">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/NSA.png" class="d-block w-25 mx-auto" alt="NSA image">
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--- ***************** END OF CAROUSEL ***************** -->
+    <div class="right">
+    <h5> Learn more about who collects your data, uses your data, why you should remain
+    anonymous online, how to restrict the data that's collected from you, and much
+    more here!</h5>
+    <a href="#" class="btn btn-primary">Learn Now!</a>
+    </div>
 <!-- END OF READABLE TEXT -->
 </div>
 </div>
